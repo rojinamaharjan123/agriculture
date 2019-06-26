@@ -49,6 +49,7 @@ flutter:
     - assets/wickedgame.mp3
     - assets/sound_alarm.mp3
     - images/brad1.jpg
+    - images/farmer.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
