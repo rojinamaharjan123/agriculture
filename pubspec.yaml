@@ -50,6 +50,15 @@ flutter:
     - assets/sound_alarm.mp3
     - images/brad1.jpg
     - images/farmer.jpg
+    - images/banana.jpg
+    - images/carrot.jpg
+    - images/cauliflower.jpg
+    - images/onion.jpg
+    - images/orange.jpg
+    - images/pineapple.jpg
+    - images/potato.jpg
+    - images/strawberry.jpg
+    - images/tomato.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

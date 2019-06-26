@@ -10,60 +10,53 @@ class MainList extends StatefulWidget {
 class _MainListState extends State<MainList> {
   var data = [
     {
-      "title": "Hey",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/200?random"
+      "title": "केरा",
+      "price": " आजको केराको मूल्य रु १२० /",
+      "image": "images/banana.jpg",
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/100?random"
+      "title": "गाजर",
+      "price": "आजको गाजरको मूल्य रु ९०/-",
+      "image": "images/carrot.jpg"
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/150?random"
+      "title": " काउली",
+      "price": "आजको काउलीको मूल्य रु ५० /-",
+      "image": "images/cauliflower.jpg"
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/125?random"
+      "title": " प्याज",
+
+      "price": "आजको प्याजको मूल्य रु ६० /-",
+      "image": "images/onion.jpg"
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/175?random"
+      "title": " सुन्तला",
+      "price": "आजको सुन्तलाको मूल्य रु १०० /-",
+      "image":"images/orange.jpg"
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/225?random"
+      "title": "भुईकट्हर ",
+      "price": "आजको भुईकट्हरको मूल्य रु २०० /-",
+      "image": "images/pineapple.jpg"
+    },
+
+
+
+
+    {
+      "title": "इस्टवेरी",
+      "price": "आजको इस्टवेरीको मूल्य रु १०० /-",
+      "image": "images/strawberry.jpg"
     },
     {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/250?random"
+      "title": "गोलभेडा ",
+      "price": "आजको गोलभेडाको मूल्य रु ५० /-",
+      "image": "images/tomato.jpg"
     },
-    {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/350?random"
-    },
-    {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/275?random"
-    },
-    {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/300?random"
-    },
-    {
-      "title": "Hey ",
-      "price": "This is just a text description of the item",
-      "image": "https://picsum.photos/325?random"
-    }
+
+
+
   ];
 
   @override
@@ -173,7 +166,7 @@ class _AwesomeListItemState extends State<AwesomeListItem> {
                             color: Colors.white,
                             style: BorderStyle.solid),
                         image: DecorationImage(
-                          image: NetworkImage(widget.image),
+                          image: AssetImage(widget.image),
                         )),
                   ),
                 ),
