@@ -15,22 +15,22 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FarmerList(title: 'Simple Json and FutureBuilder'),
+      home: VendorList(title: 'Simple Json and FutureBuilder'),
     );
   }
 }
 
-class FarmerList extends StatefulWidget {
-  FarmerList({Key key, this.title}) : super(key: key);
+class VendorList extends StatefulWidget {
+  VendorList({Key key, this.title}) : super(key: key);
   final String title;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<FarmerList> {
+class _MyHomePageState extends State<VendorList> {
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
-      new GlobalKey<RefreshIndicatorState>();
+  new GlobalKey<RefreshIndicatorState>();
 
   List words = <User>[];
   @override
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<FarmerList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("किसानको सूची"),
+        title: Text("विक्ेता सूची"),
       ),
       body: RefreshIndicator(
         onRefresh: _refresh,
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<FarmerList> {
                     return ListTile(
                       leading: CircleAvatar(
                         backgroundImage:
-                            NetworkImage(snapshot.data[index].picture),
+                        NetworkImage(snapshot.data[index].picture),
                       ),
                       title: Text(snapshot.data[index].email),
                       subtitle: Text(snapshot.data[index].name),

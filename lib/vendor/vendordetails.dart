@@ -9,17 +9,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FarmersDetails(),
+      home: VendorDetails(),
     );
   }
 }
 
-class FarmersDetails extends StatefulWidget {
+class VendorDetails extends StatefulWidget {
   @override
-  _FarmersDetailsState createState() => _FarmersDetailsState();
+  _VendorDetailsState createState() => _VendorDetailsState();
 }
 
-class _FarmersDetailsState extends State<FarmersDetails> {
+class _VendorDetailsState extends State<VendorDetails> {
   _launchcaller() async {
     const url = "tel:1234567";
 
@@ -34,7 +34,7 @@ class _FarmersDetailsState extends State<FarmersDetails> {
     return Scaffold(
       appBar: new AppBar(
         title: new Text(
-          "किसान",
+          "विक्ेता",
           style: new TextStyle(color: Colors.white),
         ),
         centerTitle: true,
