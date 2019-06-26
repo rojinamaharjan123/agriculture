@@ -131,9 +131,9 @@ class _AwesomeListItemState extends State<AwesomeListItem> {
                 new IconButton(
                   icon: new Icon(Icons.speaker),
                   onPressed: () {
-                    player.play("sound_alarm.mp3");
+                    player.play("banana.mp3");
                   },
-                )
+                ),
               ],
             ),
           ),

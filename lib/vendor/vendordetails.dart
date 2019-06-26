@@ -35,6 +35,7 @@ class _VendorDetailsState extends State<VendorDetails> {
       appBar: new AppBar(
         title: new Text(
           "विक्ेता",
+
           style: new TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -61,14 +62,14 @@ class _VendorDetailsState extends State<VendorDetails> {
           Padding(
             padding: EdgeInsets.all(10),
             child: Text(
-              "Name:",
+              "नाम: हरि पर्साद",
               style: TextStyle(color: Colors.blue, fontSize: 20.0),
             ),
           ),
           Padding(
             padding: EdgeInsets.all(10),
             child: Text(
-              "Location:",
+              "ठेगाना: जुम्ला",
               style: TextStyle(color: Colors.blue, fontSize: 20.0),
             ),
           ),
@@ -77,7 +78,7 @@ class _VendorDetailsState extends State<VendorDetails> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Text(
-                "Phone number: ",
+                "मोबाइल नम्मर:१५६७३८९९९० ",
                 style: TextStyle(
                   color: Colors.blue,
                   fontSize: 20.0,

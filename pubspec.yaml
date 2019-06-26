@@ -49,7 +49,10 @@ flutter:
   assets:
     - assets/wickedgame.mp3
     - assets/sound_alarm.mp3
+    - assets/banana.mp3
+    - assets/carrot.mp3
     - images/brad1.jpg
+    - images/Anna.png
     - images/farmer.jpg
     - images/banana.jpg
     - images/carrot.jpg

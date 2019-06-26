@@ -61,14 +61,14 @@ class _FarmersDetailsState extends State<FarmersDetails> {
           Padding(
             padding: EdgeInsets.all(10),
             child: Text(
-              "Name:",
+              "नाम: हरि पर्साद",
               style: TextStyle(color: Colors.blue, fontSize: 20.0),
             ),
           ),
           Padding(
             padding: EdgeInsets.all(10),
             child: Text(
-              "Location:",
+              "ठेगाना: जुम्ला",
               style: TextStyle(color: Colors.blue, fontSize: 20.0),
             ),
           ),
@@ -77,7 +77,7 @@ class _FarmersDetailsState extends State<FarmersDetails> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Text(
-                "Phone number: ",
+                "मोबाइल नम्मर:१५६७३८९९९० ",
                 style: TextStyle(
                   color: Colors.blue,
                   fontSize: 20.0,

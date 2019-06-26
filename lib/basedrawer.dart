@@ -65,29 +65,10 @@ class _BaseDrawerState extends State<BaseDrawer> {
                 color: Color.fromRGBO(42, 85, 150, 1.0),
               ),
               onTap: () {}),
-          ListTile(
-              title: new Text(
-                "Add Vechicles",
-                style: TextStyle(fontSize: 15.0),
-              ),
-              trailing: new Icon(
-                Icons.add,
-                color: Color.fromRGBO(42, 85, 150, 1.0),
-              ),
-              onTap: () {}),
-          ListTile(
-              title: new Text(
-                "Products",
-                style: TextStyle(fontSize: 15.0),
-              ),
-              trailing: new Icon(
-                Icons.shopping_basket,
-                color: Color.fromRGBO(42, 85, 150, 1.0),
-              ),
-              onTap: () {}),
+
           ListTile(
             title: new Text(
-              "Settings",
+              "सेटिङ्हरु",
               style: TextStyle(fontSize: 15.0),
             ),
             trailing: new Icon(
@@ -95,19 +76,10 @@ class _BaseDrawerState extends State<BaseDrawer> {
               color: Color.fromRGBO(42, 85, 150, 1.0),
             ),
           ),
+
           ListTile(
             title: new Text(
-              "Service History",
-              style: TextStyle(fontSize: 15.0),
-            ),
-            trailing: new Icon(
-              Icons.history,
-              color: Color.fromRGBO(42, 85, 150, 1.0),
-            ),
-          ),
-          ListTile(
-            title: new Text(
-              "Information section",
+              "सुचना खण्ड",
               style: TextStyle(fontSize: 15.0),
             ),
             trailing: new Icon(
@@ -117,7 +89,7 @@ class _BaseDrawerState extends State<BaseDrawer> {
           ),
           ListTile(
             title: new Text(
-              "fertility feedback",
+              "प्रजनन प्रतिक्रिया",
               style: TextStyle(fontSize: 15.0),
             ),
             trailing: new Icon(

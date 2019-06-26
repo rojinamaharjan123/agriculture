@@ -1,4 +1,5 @@
 import 'package:agriculture/homepage.dart';
+import 'package:agriculture/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
