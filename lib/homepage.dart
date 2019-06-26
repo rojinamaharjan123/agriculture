@@ -1,3 +1,4 @@
+import 'package:agriculture/basedrawer.dart';
 import 'package:agriculture/list.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
@@ -21,6 +22,7 @@ final alarmAudioPath = "wickedgame.mp3";
       "आजा को मुलय",
       style: TextStyle(fontFamily: 'NotoSans'),
     )),
+    drawer: BaseDrawer(),
     body: MainList(),
     );
   }
