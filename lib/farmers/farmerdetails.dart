@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,6 +20,20 @@ class FarmersDetails extends StatefulWidget {
 }
 
 class _FarmersDetailsState extends State<FarmersDetails> {
+     _launchcaller()  async 
+{
+const url = "tel:1234567";
+
+if (await canLaunch(url)) 
+{
+   await launch(url);
+}
+
+else{
+  throw 'Could not launch $url';
+}
+
+}
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
@@ -55,7 +70,7 @@ class _FarmersDetailsState extends State<FarmersDetails> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all( 10.0),
+            padding: EdgeInsets.all(10.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Text(
@@ -67,26 +82,15 @@ class _FarmersDetailsState extends State<FarmersDetails> {
               ),
             ),
           ),
-           Padding(
-               padding: EdgeInsets.all(10),
-             child: new RaisedButton(
-               textColor: Colors.blue,
-               elevation: 1,
-               onPressed:
-             (){},
-                 child: new Text("Contacts"),
-
-
-
-
-
-
-
-
-
-             ),
-           )
-
+          Padding(
+            padding: EdgeInsets.all(10),
+            child: new RaisedButton(
+              textColor: Colors.blue,
+              elevation: 1,
+              onPressed: _launchcaller,
+              child: new Text("Contacts"),
+            ),
+          )
         ],
       ),
     );
