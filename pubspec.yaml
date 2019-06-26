@@ -26,6 +26,7 @@ dependencies:
   audioplayers: ^0.13.0
   assets_audio_player: ^1.0.1
   http:
+  url_launcher: ^5.0.3
 
 
 dev_dependencies:
