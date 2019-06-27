@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: new AppBar(
           title: new Text(
-        "आज को मुलय",
+        "आज को मुल्य",
         style: TextStyle(fontFamily: 'NotoSans'),
       )),
       drawer: BaseDrawer(),

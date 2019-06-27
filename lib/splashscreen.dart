@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
+import 'login/loginui.dart';
 
 void main() => runApp(new MaterialApp(
   home: SplashScreen(),
@@ -16,7 +17,7 @@ class SplashScreenState extends State<SplashScreen> {
   Future checkFirstSeen() async {
 
     Navigator.of(context).pushReplacement(
-        new MaterialPageRoute(builder: (context) => new HomePage()));
+        new MaterialPageRoute(builder: (context) => new loginform()));
   }
 
   @override
