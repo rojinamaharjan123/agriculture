@@ -39,19 +39,38 @@ class _MyHomePageState extends State<FeedBackDetail> {
         padding: EdgeInsets.all(20.0),
         child: Container(
           child: new Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               new TextField(
                   decoration:
-                      new InputDecoration(hintText: " type the fertility rate"),
-                  onChanged: (String str) {
+                      new InputDecoration(hintText: " type the fertility rate(5.5-7.0)"),
+                  onChanged: (double  ) {
                     setState(() {});
                   }),
-              new Text(" ")
+
+
+
+
+
+
+
+
+
+
             ],
           ),
+
+
         ),
       ),
+
+
     );
+
+
+
+
+
+
   }
 }

@@ -91,7 +91,7 @@ class _FarmersDetailsState extends State<FarmersDetails> {
               textColor: Colors.blue,
               elevation: 1,
               onPressed: _launchcaller,
-              child: new Text("Contacts"),
+              child: new Text("सम्पर्कहरू"),
             ),
           )
         ],

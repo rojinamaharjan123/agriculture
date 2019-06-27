@@ -52,7 +52,7 @@ class _VendorDetailsState extends State<VendorDetails> {
                     height: 275.0,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("images/farmer.jpg"),
+                            image: AssetImage("images/vendor.jpg"),
                             fit: BoxFit.cover)),
                   ),
                 ],
@@ -92,7 +92,9 @@ class _VendorDetailsState extends State<VendorDetails> {
               textColor: Colors.blue,
               elevation: 1,
               onPressed: _launchcaller,
-              child: new Text("Contacts"),
+              child: Text("सम्पर्कहरू",
+              ),
+
             ),
           )
         ],
